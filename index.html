@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>Encriptador de texto</h1>
+            <textarea id="input-text" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="buttons">
+                <button id="encrypt-btn">Cifrar</button>
+                <button id="decrypt-btn">Descifrar</button>
+                <button id="clear-input-btn">Limpiar</button>
+            </div>
+            <p id="validation-msg"></p>
+        </div>
+        <div class="output-section">
+            <h2>Texto procesado:</h2>
+            <textarea id="output-text" readonly></textarea>
+            <img id="muñeco-img" src="./assets/Muñeco.png" alt="Muñeco">
+            <img id="sinMensaje-img" src="./assets/Frame 5.png" alt="Sin Mensaje">
+            <div id="output-buttons" class="buttons">
+                <button id="copy-btn">Copiar</button>
+                <button id="clear-output-btn">Limpiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Juan Diego Sánchez - &copy;2024</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
